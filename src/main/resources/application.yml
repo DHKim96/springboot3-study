@@ -16,8 +16,6 @@ spring:
     console:
       enabled: true
 
-logging:
-  level:
-    org:
-      springframework:
-        security: DEBUG
+jwt:
+  issuer: ajufresh@gmail.com
+  secret_key: study-springboot
